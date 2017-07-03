@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFB7AFE1E6DC04E00C2B624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFB7AFD1E6DC04E00C2B624 /* AppDelegate.swift */; };
+		CDFB7B001E6DC04E00C2B624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFB7AFF1E6DC04E00C2B624 /* ViewController.swift */; };
+		CDFB7B031E6DC04E00C2B624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B011E6DC04E00C2B624 /* Main.storyboard */; };
+		CDFB7B051E6DC04E00C2B624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B041E6DC04E00C2B624 /* Assets.xcassets */; };
+		CDFB7B081E6DC04E00C2B624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B061E6DC04E00C2B624 /* LaunchScreen.storyboard */; };
+		CDFB7B141E6DC22500C2B624 /* MASFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB7B111E6DC22500C2B624 /* MASFoundation.framework */; };
+		CDFB7B151E6DC22500C2B624 /* MASUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB7B121E6DC22500C2B624 /* MASUI.framework */; };
+		CDFB7B161E6DC22500C2B624 /* MASUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B131E6DC22500C2B624 /* MASUIResources.bundle */; };
+		CDFB7B1C1E6DC26D00C2B624 /* msso_configSprint.json in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B1B1E6DC26D00C2B624 /* msso_configSprint.json */; };
+		E622F57D1E78291C001EF26F /* msso_configlab002.json in Resources */ = {isa = PBXBuildFile; fileRef = E622F57C1E78291C001EF26F /* msso_configlab002.json */; };
+		E6AB39151E7AD9FB0088A0F6 /* msso_config.json in Resources */ = {isa = PBXBuildFile; fileRef = E6AB39141E7AD9FB0088A0F6 /* msso_config.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDFB7AFA1E6DC04E00C2B624 /* Sprint Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprint Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFB7AFD1E6DC04E00C2B624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDFB7AFF1E6DC04E00C2B624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDFB7B021E6DC04E00C2B624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDFB7B041E6DC04E00C2B624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFB7B071E6DC04E00C2B624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDFB7B091E6DC04E00C2B624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFB7B111E6DC22500C2B624 /* MASFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASFoundation.framework; sourceTree = "<group>"; };
+		CDFB7B121E6DC22500C2B624 /* MASUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASUI.framework; sourceTree = "<group>"; };
+		CDFB7B131E6DC22500C2B624 /* MASUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MASUIResources.bundle; sourceTree = "<group>"; };
+		CDFB7B1B1E6DC26D00C2B624 /* msso_configSprint.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configSprint.json; sourceTree = "<group>"; };
+		CDFB7B1D1E6DCDF700C2B624 /* Sprint Password.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sprint Password.entitlements"; sourceTree = "<group>"; };
+		E622F57C1E78291C001EF26F /* msso_configlab002.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configlab002.json; sourceTree = "<group>"; };
+		E6AB39141E7AD9FB0088A0F6 /* msso_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_config.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFB7AF71E6DC04E00C2B624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFB7B151E6DC22500C2B624 /* MASUI.framework in Frameworks */,
+				CDFB7B141E6DC22500C2B624 /* MASFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFB7AF11E6DC04E00C2B624 = {
+			isa = PBXGroup;
+			children = (
+				CDFB7B181E6DC23700C2B624 /* MAS SDK */,
+				CDFB7AFC1E6DC04E00C2B624 /* Sprint Password */,
+				CDFB7AFB1E6DC04E00C2B624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFB7AFB1E6DC04E00C2B624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB7AFA1E6DC04E00C2B624 /* Sprint Password.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFB7AFC1E6DC04E00C2B624 /* Sprint Password */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB7B1D1E6DCDF700C2B624 /* Sprint Password.entitlements */,
+				CDFB7AFD1E6DC04E00C2B624 /* AppDelegate.swift */,
+				CDFB7AFF1E6DC04E00C2B624 /* ViewController.swift */,
+				CDFB7B011E6DC04E00C2B624 /* Main.storyboard */,
+				CDFB7B041E6DC04E00C2B624 /* Assets.xcassets */,
+				CDFB7B061E6DC04E00C2B624 /* LaunchScreen.storyboard */,
+				CDFB7B091E6DC04E00C2B624 /* Info.plist */,
+			);
+			path = "Sprint Password";
+			sourceTree = "<group>";
+		};
+		CDFB7B181E6DC23700C2B624 /* MAS SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E622F57C1E78291C001EF26F /* msso_configlab002.json */,
+				E6AB39141E7AD9FB0088A0F6 /* msso_config.json */,
+				CDFB7B1B1E6DC26D00C2B624 /* msso_configSprint.json */,
+				CDFB7B111E6DC22500C2B624 /* MASFoundation.framework */,
+				CDFB7B121E6DC22500C2B624 /* MASUI.framework */,
+				CDFB7B131E6DC22500C2B624 /* MASUIResources.bundle */,
+			);
+			name = "MAS SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFB7AF91E6DC04E00C2B624 /* Sprint Password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFB7B0C1E6DC04E00C2B624 /* Build configuration list for PBXNativeTarget "Sprint Password" */;
+			buildPhases = (
+				CDFB7AF61E6DC04E00C2B624 /* Sources */,
+				CDFB7AF71E6DC04E00C2B624 /* Frameworks */,
+				CDFB7AF81E6DC04E00C2B624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sprint Password";
+			productName = "Sprint Password";
+			productReference = CDFB7AFA1E6DC04E00C2B624 /* Sprint Password.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFB7AF21E6DC04E00C2B624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "CA Technologies";
+				TargetAttributes = {
+					CDFB7AF91E6DC04E00C2B624 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MEDFSMVDFM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CDFB7AF51E6DC04E00C2B624 /* Build configuration list for PBXProject "Sprint Password" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFB7AF11E6DC04E00C2B624;
+			productRefGroup = CDFB7AFB1E6DC04E00C2B624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFB7AF91E6DC04E00C2B624 /* Sprint Password */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFB7AF81E6DC04E00C2B624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFB7B081E6DC04E00C2B624 /* LaunchScreen.storyboard in Resources */,
+				CDFB7B051E6DC04E00C2B624 /* Assets.xcassets in Resources */,
+				CDFB7B1C1E6DC26D00C2B624 /* msso_configSprint.json in Resources */,
+				CDFB7B031E6DC04E00C2B624 /* Main.storyboard in Resources */,
+				CDFB7B161E6DC22500C2B624 /* MASUIResources.bundle in Resources */,
+				E6AB39151E7AD9FB0088A0F6 /* msso_config.json in Resources */,
+				E622F57D1E78291C001EF26F /* msso_configlab002.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFB7AF61E6DC04E00C2B624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFB7B001E6DC04E00C2B624 /* ViewController.swift in Sources */,
+				CDFB7AFE1E6DC04E00C2B624 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDFB7B011E6DC04E00C2B624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFB7B021E6DC04E00C2B624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFB7B061E6DC04E00C2B624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFB7B071E6DC04E00C2B624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFB7B0A1E6DC04E00C2B624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDFB7B0B1E6DC04E00C2B624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFB7B0D1E6DC04E00C2B624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sprint Password/Sprint Password.entitlements";
+				DEVELOPMENT_TEAM = MEDFSMVDFM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Sprint Password/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apimca.Sprint-Password";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDFB7B0E1E6DC04E00C2B624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sprint Password/Sprint Password.entitlements";
+				DEVELOPMENT_TEAM = MEDFSMVDFM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Sprint Password/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apimca.Sprint-Password";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFB7AF51E6DC04E00C2B624 /* Build configuration list for PBXProject "Sprint Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFB7B0A1E6DC04E00C2B624 /* Debug */,
+				CDFB7B0B1E6DC04E00C2B624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFB7B0C1E6DC04E00C2B624 /* Build configuration list for PBXNativeTarget "Sprint Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFB7B0D1E6DC04E00C2B624 /* Debug */,
+				CDFB7B0E1E6DC04E00C2B624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFB7AF21E6DC04E00C2B624 /* Project object */;
+}
