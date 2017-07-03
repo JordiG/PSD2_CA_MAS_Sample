@@ -7,34 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDFB7AFE1E6DC04E00C2B624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFB7AFD1E6DC04E00C2B624 /* AppDelegate.swift */; };
-		CDFB7B001E6DC04E00C2B624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFB7AFF1E6DC04E00C2B624 /* ViewController.swift */; };
-		CDFB7B031E6DC04E00C2B624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B011E6DC04E00C2B624 /* Main.storyboard */; };
-		CDFB7B051E6DC04E00C2B624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B041E6DC04E00C2B624 /* Assets.xcassets */; };
-		CDFB7B081E6DC04E00C2B624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B061E6DC04E00C2B624 /* LaunchScreen.storyboard */; };
+		10BFDCC4FEBD0280F2898DA0 /* Pods_MAS_Sandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547973B041D3D6E5DEEEB238 /* Pods_MAS_Sandbox.framework */; };
 		CDFB7B141E6DC22500C2B624 /* MASFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB7B111E6DC22500C2B624 /* MASFoundation.framework */; };
 		CDFB7B151E6DC22500C2B624 /* MASUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB7B121E6DC22500C2B624 /* MASUI.framework */; };
 		CDFB7B161E6DC22500C2B624 /* MASUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B131E6DC22500C2B624 /* MASUIResources.bundle */; };
-		CDFB7B1C1E6DC26D00C2B624 /* msso_configSprint.json in Resources */ = {isa = PBXBuildFile; fileRef = CDFB7B1B1E6DC26D00C2B624 /* msso_configSprint.json */; };
-		E622F57D1E78291C001EF26F /* msso_configlab002.json in Resources */ = {isa = PBXBuildFile; fileRef = E622F57C1E78291C001EF26F /* msso_configlab002.json */; };
-		E6AB39151E7AD9FB0088A0F6 /* msso_config.json in Resources */ = {isa = PBXBuildFile; fileRef = E6AB39141E7AD9FB0088A0F6 /* msso_config.json */; };
+		E643E63B1E865C3A0087A300 /* msso_configtunneling.json in Resources */ = {isa = PBXBuildFile; fileRef = E643E63A1E865C3A0087A300 /* msso_configtunneling.json */; };
+		E654CEF01EDC559A00715745 /* AcctTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E654CEEF1EDC559A00715745 /* AcctTableViewCell.swift */; };
+		E6571ECE1EBC8C6A00281D40 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6571ECD1EBC8C6A00281D40 /* PaymentVC.swift */; };
+		E6763D971E8B9C5C00754D8D /* msso_config.json in Resources */ = {isa = PBXBuildFile; fileRef = E6763D961E8B9C5C00754D8D /* msso_config.json */; };
+		E6A539D41E8A5749002170CD /* msso_configemeaold.json in Resources */ = {isa = PBXBuildFile; fileRef = E6A539D31E8A5749002170CD /* msso_configemeaold.json */; };
+		E6AB39151E7AD9FB0088A0F6 /* msso_configlab002psd2.json in Resources */ = {isa = PBXBuildFile; fileRef = E6AB39141E7AD9FB0088A0F6 /* msso_configlab002psd2.json */; };
+		E6CA92D91E7C16FD001AEA0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CA92D01E7C16FD001AEA0F /* AppDelegate.swift */; };
+		E6CA92DA1E7C16FD001AEA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CA92D11E7C16FD001AEA0F /* Assets.xcassets */; };
+		E6CA92DB1E7C16FD001AEA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CA92D21E7C16FD001AEA0F /* LaunchScreen.storyboard */; };
+		E6CA92DC1E7C16FD001AEA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CA92D41E7C16FD001AEA0F /* Main.storyboard */; };
+		E6CA92DE1E7C16FD001AEA0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CA92D81E7C16FD001AEA0F /* ViewController.swift */; };
+		E6CA92E01E7C175E001AEA0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6CA92DF1E7C175E001AEA0F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDFB7AFA1E6DC04E00C2B624 /* Sprint Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprint Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDFB7AFD1E6DC04E00C2B624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDFB7AFF1E6DC04E00C2B624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDFB7B021E6DC04E00C2B624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDFB7B041E6DC04E00C2B624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDFB7B071E6DC04E00C2B624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDFB7B091E6DC04E00C2B624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA4575E04EC2FA2E14E305E /* Pods-MAS Sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Sandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Sandbox/Pods-MAS Sandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		547973B041D3D6E5DEEEB238 /* Pods_MAS_Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAS_Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A328D1C3AA112AC2E5A6925 /* Pods-MAS Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Sandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Sandbox/Pods-MAS Sandbox.release.xcconfig"; sourceTree = "<group>"; };
+		CDFB7AFA1E6DC04E00C2B624 /* MAS Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAS Sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFB7B111E6DC22500C2B624 /* MASFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASFoundation.framework; sourceTree = "<group>"; };
 		CDFB7B121E6DC22500C2B624 /* MASUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASUI.framework; sourceTree = "<group>"; };
 		CDFB7B131E6DC22500C2B624 /* MASUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MASUIResources.bundle; sourceTree = "<group>"; };
-		CDFB7B1B1E6DC26D00C2B624 /* msso_configSprint.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configSprint.json; sourceTree = "<group>"; };
-		CDFB7B1D1E6DCDF700C2B624 /* Sprint Password.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sprint Password.entitlements"; sourceTree = "<group>"; };
-		E622F57C1E78291C001EF26F /* msso_configlab002.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configlab002.json; sourceTree = "<group>"; };
-		E6AB39141E7AD9FB0088A0F6 /* msso_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_config.json; sourceTree = "<group>"; };
+		E643E63A1E865C3A0087A300 /* msso_configtunneling.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configtunneling.json; sourceTree = "<group>"; };
+		E654CEEF1EDC559A00715745 /* AcctTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcctTableViewCell.swift; sourceTree = "<group>"; };
+		E6571ECD1EBC8C6A00281D40 /* PaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		E6763D961E8B9C5C00754D8D /* msso_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_config.json; sourceTree = "<group>"; };
+		E6A539D31E8A5749002170CD /* msso_configemeaold.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configemeaold.json; sourceTree = "<group>"; };
+		E6AB39141E7AD9FB0088A0F6 /* msso_configlab002psd2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = msso_configlab002psd2.json; sourceTree = "<group>"; };
+		E6CA92D01E7C16FD001AEA0F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6CA92D11E7C16FD001AEA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6CA92D31E7C16FD001AEA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6CA92D51E7C16FD001AEA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6CA92D61E7C16FD001AEA0F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6CA92D71E7C16FD001AEA0F /* MAS Sandbox.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "MAS Sandbox.entitlements"; sourceTree = "<group>"; };
+		E6CA92D81E7C16FD001AEA0F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E6CA92DF1E7C175E001AEA0F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,49 +56,57 @@
 			files = (
 				CDFB7B151E6DC22500C2B624 /* MASUI.framework in Frameworks */,
 				CDFB7B141E6DC22500C2B624 /* MASFoundation.framework in Frameworks */,
+				10BFDCC4FEBD0280F2898DA0 /* Pods_MAS_Sandbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02C1F02259738D936FC8BE7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EA4575E04EC2FA2E14E305E /* Pods-MAS Sandbox.debug.xcconfig */,
+				5A328D1C3AA112AC2E5A6925 /* Pods-MAS Sandbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A518DAD78DEA0680F1A2722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547973B041D3D6E5DEEEB238 /* Pods_MAS_Sandbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CDFB7AF11E6DC04E00C2B624 = {
 			isa = PBXGroup;
 			children = (
+				E6CA92DF1E7C175E001AEA0F /* Default-568h@2x.png */,
+				E6CA92CF1E7C16FD001AEA0F /* MAS Sandbox */,
 				CDFB7B181E6DC23700C2B624 /* MAS SDK */,
-				CDFB7AFC1E6DC04E00C2B624 /* Sprint Password */,
 				CDFB7AFB1E6DC04E00C2B624 /* Products */,
+				02C1F02259738D936FC8BE7C /* Pods */,
+				3A518DAD78DEA0680F1A2722 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CDFB7AFB1E6DC04E00C2B624 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDFB7AFA1E6DC04E00C2B624 /* Sprint Password.app */,
+				CDFB7AFA1E6DC04E00C2B624 /* MAS Sandbox.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CDFB7AFC1E6DC04E00C2B624 /* Sprint Password */ = {
-			isa = PBXGroup;
-			children = (
-				CDFB7B1D1E6DCDF700C2B624 /* Sprint Password.entitlements */,
-				CDFB7AFD1E6DC04E00C2B624 /* AppDelegate.swift */,
-				CDFB7AFF1E6DC04E00C2B624 /* ViewController.swift */,
-				CDFB7B011E6DC04E00C2B624 /* Main.storyboard */,
-				CDFB7B041E6DC04E00C2B624 /* Assets.xcassets */,
-				CDFB7B061E6DC04E00C2B624 /* LaunchScreen.storyboard */,
-				CDFB7B091E6DC04E00C2B624 /* Info.plist */,
-			);
-			path = "Sprint Password";
 			sourceTree = "<group>";
 		};
 		CDFB7B181E6DC23700C2B624 /* MAS SDK */ = {
 			isa = PBXGroup;
 			children = (
-				E622F57C1E78291C001EF26F /* msso_configlab002.json */,
-				E6AB39141E7AD9FB0088A0F6 /* msso_config.json */,
-				CDFB7B1B1E6DC26D00C2B624 /* msso_configSprint.json */,
+				E6763D961E8B9C5C00754D8D /* msso_config.json */,
+				E643E63A1E865C3A0087A300 /* msso_configtunneling.json */,
+				E6A539D31E8A5749002170CD /* msso_configemeaold.json */,
+				E6AB39141E7AD9FB0088A0F6 /* msso_configlab002psd2.json */,
 				CDFB7B111E6DC22500C2B624 /* MASFoundation.framework */,
 				CDFB7B121E6DC22500C2B624 /* MASUI.framework */,
 				CDFB7B131E6DC22500C2B624 /* MASUIResources.bundle */,
@@ -94,24 +114,43 @@
 			name = "MAS SDK";
 			sourceTree = "<group>";
 		};
+		E6CA92CF1E7C16FD001AEA0F /* MAS Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				E6CA92D01E7C16FD001AEA0F /* AppDelegate.swift */,
+				E6CA92D11E7C16FD001AEA0F /* Assets.xcassets */,
+				E6CA92D21E7C16FD001AEA0F /* LaunchScreen.storyboard */,
+				E6CA92D41E7C16FD001AEA0F /* Main.storyboard */,
+				E654CEEF1EDC559A00715745 /* AcctTableViewCell.swift */,
+				E6CA92D61E7C16FD001AEA0F /* Info.plist */,
+				E6CA92D71E7C16FD001AEA0F /* MAS Sandbox.entitlements */,
+				E6CA92D81E7C16FD001AEA0F /* ViewController.swift */,
+				E6571ECD1EBC8C6A00281D40 /* PaymentVC.swift */,
+			);
+			path = "MAS Sandbox";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDFB7AF91E6DC04E00C2B624 /* Sprint Password */ = {
+		CDFB7AF91E6DC04E00C2B624 /* MAS Sandbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDFB7B0C1E6DC04E00C2B624 /* Build configuration list for PBXNativeTarget "Sprint Password" */;
+			buildConfigurationList = CDFB7B0C1E6DC04E00C2B624 /* Build configuration list for PBXNativeTarget "MAS Sandbox" */;
 			buildPhases = (
+				8CAA09F7A048C3C26BBD95A6 /* [CP] Check Pods Manifest.lock */,
 				CDFB7AF61E6DC04E00C2B624 /* Sources */,
 				CDFB7AF71E6DC04E00C2B624 /* Frameworks */,
 				CDFB7AF81E6DC04E00C2B624 /* Resources */,
+				513A287E3119BABB27C216E0 /* [CP] Embed Pods Frameworks */,
+				96B56EA06AD158874836ACD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Sprint Password";
+			name = "MAS Sandbox";
 			productName = "Sprint Password";
-			productReference = CDFB7AFA1E6DC04E00C2B624 /* Sprint Password.app */;
+			productReference = CDFB7AFA1E6DC04E00C2B624 /* MAS Sandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,13 +160,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "CA Technologies";
 				TargetAttributes = {
 					CDFB7AF91E6DC04E00C2B624 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MEDFSMVDFM;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -136,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CDFB7AF51E6DC04E00C2B624 /* Build configuration list for PBXProject "Sprint Password" */;
+			buildConfigurationList = CDFB7AF51E6DC04E00C2B624 /* Build configuration list for PBXProject "MAS Sandbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDFB7AF91E6DC04E00C2B624 /* Sprint Password */,
+				CDFB7AF91E6DC04E00C2B624 /* MAS Sandbox */,
 			);
 		};
 /* End PBXProject section */
@@ -159,45 +198,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFB7B081E6DC04E00C2B624 /* LaunchScreen.storyboard in Resources */,
-				CDFB7B051E6DC04E00C2B624 /* Assets.xcassets in Resources */,
-				CDFB7B1C1E6DC26D00C2B624 /* msso_configSprint.json in Resources */,
-				CDFB7B031E6DC04E00C2B624 /* Main.storyboard in Resources */,
+				E6CA92DC1E7C16FD001AEA0F /* Main.storyboard in Resources */,
+				E6763D971E8B9C5C00754D8D /* msso_config.json in Resources */,
+				E6CA92E01E7C175E001AEA0F /* Default-568h@2x.png in Resources */,
 				CDFB7B161E6DC22500C2B624 /* MASUIResources.bundle in Resources */,
-				E6AB39151E7AD9FB0088A0F6 /* msso_config.json in Resources */,
-				E622F57D1E78291C001EF26F /* msso_configlab002.json in Resources */,
+				E6AB39151E7AD9FB0088A0F6 /* msso_configlab002psd2.json in Resources */,
+				E6CA92DB1E7C16FD001AEA0F /* LaunchScreen.storyboard in Resources */,
+				E643E63B1E865C3A0087A300 /* msso_configtunneling.json in Resources */,
+				E6A539D41E8A5749002170CD /* msso_configemeaold.json in Resources */,
+				E6CA92DA1E7C16FD001AEA0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		513A287E3119BABB27C216E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAS Sandbox/Pods-MAS Sandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAA09F7A048C3C26BBD95A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96B56EA06AD158874836ACD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAS Sandbox/Pods-MAS Sandbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDFB7AF61E6DC04E00C2B624 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFB7B001E6DC04E00C2B624 /* ViewController.swift in Sources */,
-				CDFB7AFE1E6DC04E00C2B624 /* AppDelegate.swift in Sources */,
+				E654CEF01EDC559A00715745 /* AcctTableViewCell.swift in Sources */,
+				E6CA92DE1E7C16FD001AEA0F /* ViewController.swift in Sources */,
+				E6571ECE1EBC8C6A00281D40 /* PaymentVC.swift in Sources */,
+				E6CA92D91E7C16FD001AEA0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDFB7B011E6DC04E00C2B624 /* Main.storyboard */ = {
+		E6CA92D21E7C16FD001AEA0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDFB7B021E6DC04E00C2B624 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CDFB7B061E6DC04E00C2B624 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDFB7B071E6DC04E00C2B624 /* Base */,
+				E6CA92D31E7C16FD001AEA0F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E6CA92D41E7C16FD001AEA0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6CA92D51E7C16FD001AEA0F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -243,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -286,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -296,46 +387,73 @@
 		};
 		CDFB7B0D1E6DC04E00C2B624 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA4575E04EC2FA2E14E305E /* Pods-MAS Sandbox.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Sprint Password/Sprint Password.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "MAS Sandbox/MAS Sandbox.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "MAS Sandbox/MAS Sandbox.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jordi Gascon Garcia (MEDFSMVDFM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = MEDFSMVDFM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "Sprint Password/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MAS Sandbox/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apimca.Sprint-Password";
+				PRODUCT_BUNDLE_IDENTIFIER = "jordigascon.MAS-Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "306b0db0-2c5d-4a5f-94ab-03499fe98028";
+				PROVISIONING_PROFILE_SPECIFIER = "MAS Sandbox";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CDFB7B0E1E6DC04E00C2B624 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A328D1C3AA112AC2E5A6925 /* Pods-MAS Sandbox.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Sprint Password/Sprint Password.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "MAS Sandbox/MAS Sandbox.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jordi Gascon Garcia (MEDFSMVDFM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = MEDFSMVDFM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "Sprint Password/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MAS Sandbox/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apimca.Sprint-Password";
+				PRODUCT_BUNDLE_IDENTIFIER = "jordigascon.MAS-Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "306b0db0-2c5d-4a5f-94ab-03499fe98028";
+				PROVISIONING_PROFILE_SPECIFIER = "MAS Sandbox";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDFB7AF51E6DC04E00C2B624 /* Build configuration list for PBXProject "Sprint Password" */ = {
+		CDFB7AF51E6DC04E00C2B624 /* Build configuration list for PBXProject "MAS Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDFB7B0A1E6DC04E00C2B624 /* Debug */,
@@ -344,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDFB7B0C1E6DC04E00C2B624 /* Build configuration list for PBXNativeTarget "Sprint Password" */ = {
+		CDFB7B0C1E6DC04E00C2B624 /* Build configuration list for PBXNativeTarget "MAS Sandbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDFB7B0D1E6DC04E00C2B624 /* Debug */,

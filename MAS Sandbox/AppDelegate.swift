@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Sprint Password
 //
-//  Created by Alan Cota on 3/6/17.
+//
+//  Created by Jordi Gascon 3/21/17. Based on a sample from Alan Cota on 3/6/17.
 //  Copyright © 2017 CA Technologies. All rights reserved.
 //
 
@@ -43,4 +43,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+// extendido para xml sepa
+extension Data {
+    var string: String {
+        return String(data: self, encoding: .utf8) ?? ""
+    }
+}
+extension String {
+    var data: Data {
+        return Data(utf8)
+    }
+    var base64Decoded: Data? {
+        return Data(base64Encoded: self)
+    }
+}
+// Fin extendido
+//para pasar el log
 
+class SharingLog {
+    var logMessage:String = ""
+    static let sharedInstance = SharingLog()
+}

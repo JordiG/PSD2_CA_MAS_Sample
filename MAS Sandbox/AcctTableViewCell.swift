@@ -10,15 +10,11 @@ import UIKit
 
 class AcctTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    @IBOutlet weak var imgCell: UIImageView!
+    
+    @IBOutlet weak var totalBalCell: UILabel!
+    @IBOutlet weak var availBalCell: UILabel!
+    @IBOutlet weak var acctNumCell: UILabel!
+    
 
 }

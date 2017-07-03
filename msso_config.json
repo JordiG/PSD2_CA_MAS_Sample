@@ -1,7 +1,7 @@
 {
                                 "server": {
-                                "hostname": "lab002psd2",
-                                "port": 8443,
+                                "hostname": "psd2api.demo.ca.com",
+                                "port": 443,
                                 "prefix": "",
                                 "server_certs": [
                                 [
@@ -21,8 +21,8 @@
                                 
                                 {
                                 "client_id": "l7xx9fa77da09897457c8468e30a9c5b5ddc",
-                                "client_secret":"",
-                                "scope": "openid msso msso_register msso_client_register phone profile address email mas_identity_retrieve_users customer_information accounts account_details check_funds",
+                                "client_secret":"cfb09cb97831451e9ec7d463ea5c99bc",
+                                "scope": "openid msso msso_register msso_client_register phone profile address email mas_identity_retrieve_users customer_information accounts account_details check_funds payments",
                                 "redirect_uri": "ios://l7xx9fa77da09897457c8468e30a9c5b5ddc",
                                 "environment": "",
                                 "status": "ENABLED",
